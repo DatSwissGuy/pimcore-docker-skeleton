@@ -68,10 +68,10 @@ services:
 ```
 
 ## Installation
-The following is a sequence of commands and steps:
+Clone this repository or create your own Docker Compose configuration file. After that follow this sequence of commands and steps:
 
 1. run `docker-compose up -d` 
-2. run `docker ps` and identify the pimcore container
+2. run `docker ps` and identify the pimcore container or alternatively use the Docker dashboard
 3. bash into container: `docker exec -it <pimcore-container> bash`
 4. install package: `COMPOSER_MEMORY_LIMIT=-1 composer create-project pimcore/skeleton tmp`
 5. move temporary installed packages to the correct folder in apache: `mv tmp/.[!.]* .` then `mv tmp/* .` then `rmdir tmp`
