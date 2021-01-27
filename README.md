@@ -4,7 +4,7 @@ This is a Docker Compose quick setup for a Pimcore skeleton installation.
 # Step-by-Step
 
 ## Prerequisites
-The starting point is a Docker-Compose configuration file (docker-compose.yml). This setup contains: 
+The starting point is a Docker-Compose configuration file (docker-compose.yml). The following is an example with some selected images: 
 
 `Redis` => as a cache.
 
@@ -15,6 +15,8 @@ The starting point is a Docker-Compose configuration file (docker-compose.yml). 
 `phpMyAdmin` => to make handling the database a bit easier without having to rely on tools like Sequel Pro, MySQL Workbench, etc.
 
 `MailCatcher` => for E-Mail handling during development.
+
+Change the ports as needed. I chose this setup to not interfere with other running containers.
 
 ```yml
 version: "3.7"
