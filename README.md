@@ -1,3 +1,6 @@
+# Deprecation Warning (December 2021)
+This Repo is based on Pimcore 6.9. Pimcore's official docker skeleton for Pimcore Version 10 (aka Pimcore X) now works out of the box, respectively their instructions are complete. No more extra steps. Please use their Repo unless you really want to work with Pimcore 6.9
+
 # Pimcore Docker Compose Setup
 This is a Docker Compose quick setup for a Pimcore skeleton installation.
 
